@@ -1,0 +1,73 @@
+.imc-calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imc-calculator h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+  }
+
+.form-group input:focus {
+    background-color: #0056b3;
+}
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0px) }
+    50% { transform: translateY(5px) }
+    100%  { transform: translateY(0px) }
+}
+
+button:hover {
+    background-color: #0056b3;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+  }
+  
+  .resultado {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .resultado h2 {
+    margin: 0;
+  }
+  
+  .resultado p {
+    margin: 5px 0;
+    font-size: 1.2em;
+  }
+  
